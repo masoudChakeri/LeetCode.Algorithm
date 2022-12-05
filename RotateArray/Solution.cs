@@ -10,14 +10,7 @@ namespace RotateArray
     {
         public void Rotate(int[] nums, int k)
         {
-            if (k > nums.Length)
-            {
-                for (int i = nums.Length - 1; i < k; i++)
-                {
-                    nums.SetValue(0, i);
-                }
-            }
-
+            k %= nums.Length;
             var rotated = new int[nums.Length];
 
             Array.Copy(nums, nums.Length - k, rotated, 0, k);
