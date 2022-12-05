@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "BinarySearc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LRString", "LRString\LRString.csproj", "{1899BF01-3AEA-4463-A9F4-DBD3B9D88050}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstBadVersion", "FirstBadVersion\FirstBadVersion.csproj", "{27C3D790-5F41-424B-A3BD-DEF5EFC644A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstBadVersion", "FirstBadVersion\FirstBadVersion.csproj", "{27C3D790-5F41-424B-A3BD-DEF5EFC644A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchInsert", "SearchInsert\SearchInsert.csproj", "{EF11BC5B-07DB-4AA8-9CB4-B6D07860ABD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchInsert", "SearchInsert\SearchInsert.csproj", "{EF11BC5B-07DB-4AA8-9CB4-B6D07860ABD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedSquares", "SortedSquares\SortedSquares.csproj", "{7EDC2E4E-931D-42C9-B4B1-2A10A60E620A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{EF11BC5B-07DB-4AA8-9CB4-B6D07860ABD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF11BC5B-07DB-4AA8-9CB4-B6D07860ABD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF11BC5B-07DB-4AA8-9CB4-B6D07860ABD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EDC2E4E-931D-42C9-B4B1-2A10A60E620A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EDC2E4E-931D-42C9-B4B1-2A10A60E620A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EDC2E4E-931D-42C9-B4B1-2A10A60E620A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EDC2E4E-931D-42C9-B4B1-2A10A60E620A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
